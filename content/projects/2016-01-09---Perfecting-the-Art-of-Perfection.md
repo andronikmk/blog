@@ -1,10 +1,10 @@
 ---
-title: Perfecting the Art of Perfection
+title: Toxic Content Monitoring
 date: "2016-09-01T23:46:37.121Z"
 template: "project"
 draft: false
 slug: "perfecting-the-art-of-perfection"
-category: "Design Inspiration"
+category: "Natural Language Processing"
 tags:
   - "Handwriting"
   - "Learning to write"
