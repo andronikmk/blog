@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3e5db56a-3018-496b-ac52-7a2e90595806/deploy-status)](https://app.netlify.com/sites/inspiring-hermann-e0e6ba/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b7b263e8-694f-47bf-9b1a-1cbe3984bfff/deploy-status)](https://app.netlify.com/sites/dreamy-borg-fb2e6c/deploys)
 
 <h4 align="center">
   A minimal, lightweight and mobile-first starter for creating blogs uses <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a>.
