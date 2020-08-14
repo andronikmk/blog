@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Blog by Andronik Mkrtychev',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  copyright: '© Andronik Mkrtychev. All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Andronik Mkrtychev',
     photo: '/andronik.jpg',
-    bio: 'Data Scientist.',
+    bio: 'Data Scientist',
     contacts: {
       email: 'andronikmk@gmail.com',
       facebook: '',
