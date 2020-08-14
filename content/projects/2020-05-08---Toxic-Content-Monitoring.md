@@ -12,34 +12,51 @@ description: ""
 ---
 [![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/toxic-content-monitoring)
 
-<div style="text-align: justify"> 
 
-**Abstract:** In recent years, many articles have highlighted the toxic world of internet comments and intenet posts.
-Reddit has announced its "anti-evil team" and YouTube has diasbled the comments section on videos featuring
-children. The internet of today is a far cry from the early days when cyber-utopians heralded in a new era
-of human collaboration and communication. While furfilling my role as a *Data Science Intern* at Big Armor, 
-our team was taksed to come up with an application to be used by social workers to monitor and report potentially
-harmful and toxic behavior. Systems exist to detect toxicity, suicidality, and other concenring behavior,
-they are all either whole system programs or limited to a small set of topics.
-The current model is a Bi-directional LSTM + GRU neural network made with PyTorch, assuming FastText vectorization. 
-Considerable preprocessing is performed on the text before vectorization. The metrics used in evaluating
-this model are F1 and ROC-AUC scores. 
- </div>
+## Introduction
 
-### Model
-<div style="text-align: justify"> 
+<p style="text-align: justify;"> 
 In recent years, many articles have highlighted the toxic world of internet comments and intenet posts.
 Reddit has announced its "anti-evil team" and YouTube has diasbled the comments section on videos featuring
 children. The internet of today is a far cry from the early days when cyber-utopians heralded in a new era
-of human collaboration and communication. While furfilling my role as a *Data Science Intern* at Big Armor, 
+of human collaboration and communication. While furfilling my role as a <i>Data Science Intern</i> at Big Armor, 
 our team was taksed to come up with an application to be used by social workers to monitor and report potentially
 harmful and toxic behavior. Systems exist to detect toxicity, suicidality, and other concenring behavior,
 they are all either whole system programs or limited to a small set of topics.
-The current model is a Bi-directional LSTM + GRU neural network made with PyTorch, assuming FastText vectorization. 
-Considerable preprocessing is performed on the text before vectorization. The metrics used in evaluating
-this model are F1 and ROC-AUC scores. 
- </div>
- <img src="/media/toxic-content-monitoring/baselines-with-labels.png" alt="Baseline">
+The current model is a Bi-directional LSTM + GRU neural network made with PyTorch.
+</p>
+
+## Models and Metrics
 
 
+<p style="text-align: justify;"> 
+The model is used to determine if the text contains toxic or offensive content.
+</p>
 
++ toxic
++ severe toxic
++ obscene
++ threat
++ insult
++ identity hate
+
+<p style="text-align: justify;">
+The API returns the cleaned text, all labels, True of False for each label, and the predicted probability of each.  The current model is a Bi-directional LSTM + GRU neural network made with
+PyTorch, assuming FastText vectorization. Considerable preprocessing is
+performed on the text before vectorization. The metrics used in evaluating
+this model are F1 and ROC-AUC scores.  
+
+</p>
+
+<img src="/media/toxic-content-monitoring/baselines-with-labels.png" alt="Baseline">
+
+<p style="text-align: justify;"> 
+
+F1 score is defined as the harmonic mean between precision and recall on a scale of 0 to 1. Recall demonstrates how effectively this model identifies all relevant instances of toxicity. Precision demonstrates how effectively the model returns only these relevant instances. The AUC score represents the measure of separability, in this case, distinguishing between toxic and non-toxic content. Also on a scale of 0 to 1, a high AUC score indicates the model successfully classifies toxic vs non-toxic. The ROC represents
+the probability curve. The F1 score for this model is 0.753 and the ROC-AUC score is 0.987.
+The following is a chart of all the various models our team created.concentrated in a few counties.
+</p>
+
+## Presentation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SY5PvZrJhLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
