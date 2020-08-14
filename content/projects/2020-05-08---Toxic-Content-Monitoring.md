@@ -8,11 +8,9 @@ category: "Natural Language Processing"
 tags:
   - "Natural Language Processing"
   - "Project"
-description: "TODO..."
+description: ""
 ---
-<!-- <figure class="float-right" style="width: 240px">
-	<img src="/media/toxic-content-monitoring/t-sne-with-labels-500.png" alt="Gutenberg">
-	<figcaption>Johannes Gutenberg</figcaption>
-</figure> -->
+[![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/toxic-content-monitoring)
 
-![Nulla](/media/toxic-content-monitoring/t-sne-without-labels-1000.png)
+
+![TSNE](/media/toxic-content-monitoring/t-sne-without-labels-1000.png)
