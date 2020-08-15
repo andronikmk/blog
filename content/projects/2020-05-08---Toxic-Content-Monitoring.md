@@ -58,5 +58,4 @@ The following is a chart of all the various models our team created.concentrated
 </p>
 
 ## Presentation
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SY5PvZrJhLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/845187a43cac49c09eda06f51443f8c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
