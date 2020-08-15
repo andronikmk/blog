@@ -50,7 +50,6 @@ this model are F1 and ROC-AUC scores.
 <img src="/media/toxic-content-monitoring/baselines-with-labels.png" alt="Baseline">
 
 <p style="text-align: justify;"> 
-
 F1 score is defined as the harmonic mean between precision and recall and is measured on scale of 0 to 1. Recall demonstrates how effectively this model identifies all relevant instances of toxicity. Precision demonstrates how effectively the model returns only these relevant instances. The AUC score represents the measure of separability, in this case, distinguishing between toxic and non-toxic content. Also on a scale of 0 to 1, a high AUC score indicates the model successfully classifies toxic vs non-toxic. The ROC represents
 the probability curve. The F1 score for this model is 0.753 and the ROC-AUC score is 0.987.
 The figure above shows all the various models our team build and the top performing model is located on the top right hand side.
