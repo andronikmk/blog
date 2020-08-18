@@ -28,10 +28,11 @@ The following article explores data published by the Bank of England. The data-s
 	<img src="/media/uk-economic-data-dash-app/image4.png">
 </figure>
 
-<figure>
-	<img src="/media/uk-economic-data-dash-app/image3.png">
-	<figcaption>Prediction</figcaption>
-</figure>
+## Model and Metric
+
+<p style="text-align: justify;"> 
+Real consumption earnings was modeled using a decision tree regressor which breaks down a data-set into smaller and smaller subsets while at the same time an association tree is incrementally developed. This method of analysis resulted in a validation accuracy of 0.641 which suggests that the percentage of correct classifications using this model was approximately 64.1%.
+</p>
 
 ```python
 # imported libraries
@@ -68,6 +69,14 @@ pipeline = make_pipeline(
 pipeline.fit(X_train, y_train)
 print('Validation Accuracy', pipeline.score(X_val, y_val))
 ```
+
+<figure>
+	<img src="/media/uk-economic-data-dash-app/image3.png">
+	<figcaption>Prediction</figcaption>
+</figure>
+
+
+
 
 ## Presentation
 
