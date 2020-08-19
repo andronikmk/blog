@@ -29,9 +29,12 @@ well as choosing the metrics to measure our models success.
 ## Model and Metric
 
 <p style="text-align: justify;"> 
-Applied Nearest Neighbors algorithm assuming TF-IDF vectorization on our data set. The metric used to measure model
-performace is accuracy. In addition, our models output shown in the figure below is in Jsonified form as per request
-of the front-end team and outputs results using nine categories:
+Our model leverages k-Nearest Neibors assuming TF-IDF vectorization and achieves a 
+validation accuracy of 73.2%. In addition, on this project my team was tasked
+to intergrate the model into our Flask app, host the data using PostgreSQL and
+deploy the API to Heroku, at which point the Front End team would connect to
+the endpoint. Finally, model output is in the form of a Json object using the following
+categories:
 </p>
 
 + id
