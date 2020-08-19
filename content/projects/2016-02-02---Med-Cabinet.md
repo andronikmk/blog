@@ -9,7 +9,7 @@ tags:
   - "natural language processing" 
   - "flask"
   - "heroku"
-description: "App for new cannabis consumers (especially those trying to get off of pharmaceuticals) who want to use cannabis as a means to battle medical conditions and ailments."
+description: "An interactive app for consumers who want to use cannabis as a means to battle medical conditions and ailments."
 socialImage: "/media/image-0.jpg"
 ---
 [![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/med-cabinet-data-science)

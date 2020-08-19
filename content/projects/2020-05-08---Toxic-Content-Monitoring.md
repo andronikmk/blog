@@ -8,7 +8,8 @@ category: "Natural Language Processing"
 tags:
   - "Natural Language Processing"
   - "Project"
-description: "In recent years, many articles have highlighted the toxic world of internet comments and intenet posts."
+description: "In recent years, many articles have highlighted the toxic world of internet comments and intenet posts. The following is a tool built to monitor and categories user comments into six
+categories."
 ---
 [![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/toxic-content-monitoring)
 

@@ -8,7 +8,7 @@ category: "Machine Learning"
 tags:
   - "machine learning" 
   - "logisitc regression"
-description: "The economic development of Europe proceeded political consolidation and differentiation."
+description: "A Plotly Dash app used real consumer earnings and consumer price index on a millennium of macroeconomic data from the Bank of England"
 ---
 [![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/uk-data-dash-app)
 
