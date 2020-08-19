@@ -10,7 +10,7 @@ tags:
   - "flask"
   - "heroku"
 description: "An interactive app for consumers who want to use cannabis as a means to battle medical conditions and ailments."
-socialImage: "/media/image-0.jpg"
+socialImage: "/media/med-cabinet/img2.png"
 ---
 [![Alt text](/media/icons/GitHub-Mark-32px.png)](https://github.com/andronikmk/med-cabinet-data-science)
 
